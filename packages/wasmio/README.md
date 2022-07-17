@@ -1,6 +1,6 @@
-# pkg
+# wasmio
 
-A simple package
+WASM tool chains for Go, Rust, Node and so on
 
 ## TOC <!-- omit in toc -->
 
@@ -18,19 +18,19 @@ A simple package
 
 ```sh
 # pnpm
-pnpm add pkg
+pnpm add wasmio
 
 # yarn
-yarn add pkg
+yarn add wasmio
 
 # npm
-npm i pkg
+npm i wasmio
 ```
 
 ### API
 
 ```js
-import echo from 'pkg'
+import echo from 'wasmio'
 
 echo()
 ```

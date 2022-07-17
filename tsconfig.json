@@ -1,14 +1,22 @@
 {
-  "extends": "@1stg/tsconfig/lib",
+  "extends": "@1stg/tsconfig/lib.json",
   "compilerOptions": {
     "noEmit": true,
     "paths": {
-      "pkg": ["./packages/pkg/src"]
+      "@wasmio/go": ["./packages/@wasmio/go/src"],
+      "@wasmio/tinygo": ["./packages/@wasmio/tinygo/src"],
+      "wasmio": ["./packages/wasmio/src"]
     }
   },
   "references": [
     {
-      "path": "./packages/pkg"
+      "path": "./packages/@wasmio/go"
+    },
+    {
+      "path": "./packages/@wasmio/tinygo"
+    },
+    {
+      "path": "./packages/wasmio"
     }
   ]
 }

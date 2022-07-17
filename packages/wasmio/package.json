@@ -1,10 +1,10 @@
 {
-  "name": "pkg",
+  "name": "wasmio",
   "version": "0.0.0",
   "type": "module",
-  "description": "A simple package",
-  "repository": "git+https://github.com/un-ts/mono-lib-boilerplate.git",
-  "homepage": "https://github.com/un-ts/mono-lib-boilerplate/blob/main/packages/pkg",
+  "description": "WASM tool chains for Go, Rust, Node and so on",
+  "repository": "git+https://github.com/wasmio/wasmio.git",
+  "homepage": "https://github.com/wasmio/wasmio/blob/main/packages/wasmio",
   "author": "JounQin (https://www.1stG.me) <admin@1stg.me>",
   "donate": {
     "recipients": [
@@ -46,9 +46,6 @@
   "files": [
     "lib"
   ],
-  "dependencies": {
-    "tslib": "^2.4.0"
-  },
   "publishConfig": {
     "access": "public",
     "main": "./lib/index.cjs",
