@@ -8,4 +8,9 @@ export default defineConfig({
       dts: true,
     }),
   ],
+  test: {
+    coverage: {
+      reporter: ['lcov', 'json'],
+    },
+  },
 })
