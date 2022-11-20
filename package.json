@@ -42,7 +42,7 @@
     "@pkgr/webpack-mdx": "^2.0.3",
     "@size-limit/preset-small-lib": "^7.0.8",
     "@types/node": "^18.0.4",
-    "@types/react": "^18.0.15",
+    "@types/react": "^18.0.25",
     "@types/react-dom": "^18.0.6",
     "@types/web": "^0.0.69",
     "@wasmio/go": "workspace:*",
